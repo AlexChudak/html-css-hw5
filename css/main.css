@@ -1,0 +1,568 @@
+
+
+/* CSS переменные, применяем кл всем доку */
+
+
+/* фон хедера background:#FFFFFF */
+/* фон основной #E5E5E5 */
+/* фона доп #F5F4FA */
+/* фон футера #2F303A */
+/* цвет основного текста #212121 */
+/* цвет дополнительного текста #757575*/
+/* цвет текста белый #FFFFFF */
+/* цвет акцента текста #2196F3 и заливка кнопок */
+/*  Developed by color: rgba(255, 255, 255, 0.4); */
+
+/* logo */
+.logo {
+  color: var(--primary-text-color);
+}
+.web {
+  color: #2196f3;
+}
+
+/* site-nav */
+
+.site-nav .link {
+  color: var(--primary-text-color);
+  font-size: 14px;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+
+/* 
+/* auth-nav */
+
+.auth-nav .link {
+  color: var(--secondary-text-color);
+}
+
+.auth-nav .link:hover,
+.sauth-nav .link:focus {
+  color: var(--accent-color);
+
+} 
+
+/* hero*/
+
+.cont .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  max-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  /* background-color: darkmagenta; */
+
+  background-image: linear-gradient(
+    to right,
+     rgba(47, 48, 58, 0.8),
+     rgba(47, 48, 58, 0.8)),
+     url(../Images/Header.jpg);
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.hero {
+  text-align: center;
+  /* background-color: slategray;
+  max-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+
+
+  background-image:linear-gradient(rgba(47, 48, 58, 0.3),url(../Images/Header.jpg));
+  
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+
+.hero-title {
+  color: white;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+ 
+
+  margin-top: 0px;
+  margin-bottom: 38px;
+
+}
+
+
+/* Section & h2 */
+
+.section-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  margin-top: 0px;
+  margin-bottom: 50px;
+  
+}
+
+/* Features */
+.features {
+  
+  display: flex;
+  
+  width: 270px;
+
+  
+}
+
+.antena {
+  margin-right: 30px;
+}
+.clock {
+  margin-right: 30px;
+}
+.diagram {
+  margin-right: 30px;
+}
+
+/* Фоны с картинками */
+.features-fone {
+  width:270px;
+  height:120px;
+  background-color: #F5F4FA;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  
+  margin-bottom: 30px;
+}
+
+.features-icon {
+  
+  width:70px;
+  height:70px;
+
+  /* background-position: 50% 50%; */
+  /* background-color: cyan;
+  background-size: 270px 120px; */
+}
+
+/* .features .antena::before {
+  display: inline-flex;
+  width: 270px;
+  height: 120px;
+  background-color:#F5F4FA;;
+  background-image: url(../Images/Antenna.svg);
+  content: "";
+  background-repeat: no-repeat;
+  background-position:center;
+
+  margin-bottom: 30px;
+
+} */
+/* 
+.features .clock::before {
+  display: inline-flex;
+  width: 270px;
+  height: 120px;
+  background-color:#F5F4FA;;
+  background-image: url(../Images/clock.svg);
+  content: "";
+  background-repeat: no-repeat;
+  background-position:center;
+
+  margin-bottom: 30px;
+}
+
+.features .diagram::before {
+  display: inline-flex;
+  width: 270px;
+  height: 120px;
+  background-color:#F5F4FA;;
+  background-image: url(../Images/diagram.svg);
+  content: "";
+  background-repeat: no-repeat;
+  background-position:center;
+
+  margin-bottom: 30px;
+}
+.features .cosmonavt::before {
+  display: inline-flex;
+  width: 270px;
+  height: 120px;
+  background-color:#F5F4FA;;
+  background-image: url(../Images/astronaut.svg);
+  content: "";
+  background-repeat: no-repeat;
+  background-position:center;
+
+  margin-bottom: 30px;
+} */
+
+
+
+.features .item:last-child {
+  margin-right: 0px;
+}
+
+.features-img {
+  margin-bottom: 30px;
+}
+
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14; 
+  text-transform: uppercase;
+
+  margin-top: 0px;
+  margin-bottom: 10px;
+  
+}
+.features-text {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+
+
+/* button */
+
+
+/* ЧЕМ МЫ ЗАНИМАЕМСЯ */
+
+.directions {
+  display:flex;
+}
+
+.directions .item + .item{
+  margin-left: 30px;
+  
+}
+.directions .item {
+  width: 370px;
+}
+
+
+.section .workline {
+  background-color: rgba(47, 48, 58, 0.8);;
+  color: white;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+
+  text-transform: uppercase;
+}
+
+/* наша команда */
+.ourteam {
+  background-color: #f5f4fa;
+}
+
+.ourteam-ul {
+  display:flex;
+}
+.ourteam-ul .item {
+  width: 270px;
+  display: inline-flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.ourteam-ul .item + .item {
+  margin-left: 30px;
+}
+
+.name {
+  color: var(--primary-text-color);
+  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.position {
+  color: var(--secondary-text-color);
+
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+
+  margin-bottom: 16px;
+}
+
+.worker-links {
+  display:flex;
+  justify-content:space-evenly ;
+  align-content:center;
+  padding-bottom: 24px;
+  
+}
+
+/* Ярлыки ссылки */
+.insta {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background-color:#ffff;
+  border-radius: 50%;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  
+}
+
+.insta:hover {
+  background-color:#2196F3; 
+}
+
+
+
+.icon-insta {
+  width: 20px;
+  fill: #AFB1B8;
+
+}
+.icon-insta:hover {
+  fill:#ffff;
+}
+
+.twitt {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background-color:#ffff;
+  border-radius: 50%;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.twitt:hover {
+  background-color: #2196F3; 
+
+}
+
+.icon-twitt {
+  width: 20px;
+  fill: #AFB1B8;
+}
+
+.icon-twitt:hover {
+  fill:#ffff;
+}
+
+.face {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background-color:#ffff;
+  border-radius: 50%;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.icon-face {
+  width: 20px;
+  height: 20px;
+  fill: #AFB1B8;
+}
+
+.face:hover {
+  background-color:#2196F3; 
+}
+
+
+
+.icon-face {
+  width: 20px;
+  fill: #AFB1B8;
+
+}
+.icon-face:hover {
+  fill:#ffff;
+}
+
+.linked {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background-color:#ffff;
+  border-radius: 50%;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.icon-linked {
+  width: 20px;
+  height: 20px;
+  fill: #AFB1B8;
+}
+
+.linked:hover {
+  background-color:#2196F3; 
+}
+
+
+
+.icon-linked {
+  width: 20px;
+  fill: #AFB1B8;
+
+}
+.icon-linked:hover {
+  fill:#ffff;
+}
+
+/* Наши клиенты */
+.clients {
+  display:flex;
+}
+
+.clients .item +.item {
+  margin-left:30px;
+}
+
+
+
+.item .company1 {
+  display: block;
+  width: 170px;
+  height: 90px;
+  
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px 
+}
+
+.icon-company1 {
+  width: 44px;
+  height: 49px;
+ 
+}
+
+
+.item .company2 {
+  display: block;
+  width: 170px;
+  height: 90px;
+  
+  
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+
+  text-align: center;
+  padding-top: 19px;
+  padding-bottom: 19px 
+}
+.icon-company2 {
+  width: 40px;
+  height: 52px;
+ 
+}
+
+
+.item .company3 {
+  display: block;
+  width: 170px;
+  height: 90px;
+  
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 23px 
+}
+.icon-company3 {
+
+  width: 41px;
+  height: 43px;
+}
+ 
+
+.item .company4 {
+  display: block;
+  width: 170px;
+  height: 90px;
+  
+  
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 24px 
+}
+.icon-company4 {
+  
+  width: 80px;
+  height: 42px;
+  fill:#AFB1B8;
+}
+
+.item .company5 {
+  display: block;
+  width: 170px;
+  height: 90px;
+  
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 21px 
+}
+.icon-company5 {
+  
+  width: 59px;
+  height: 47px;
+}
+
+.item .company6 {
+  display: block;
+  width: 170px;
+  height: 90px;
+ 
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 22px 
+}
+.icon-company6 {
+  
+  width: 88px;
+  height: 45px;
+}
